@@ -1,0 +1,187 @@
+html {
+    padding: 0px;
+}
+
+body {
+    font-family: Roboto;
+    padding: 0px;
+    margin: 0px;
+    margin: auto;
+}
+
+.first {
+    background-color: #1F2937;
+    padding-bottom: 100px;
+}
+
+nav {
+    padding-bottom: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 10px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    color: white;
+    align-items: baseline;
+    gap: 24px;
+    padding: 0px;
+}
+
+li {
+    font-size: 18px;
+}
+
+li.logo {
+    margin-right: auto;
+    font-size: 24px;
+}
+
+.intro-container {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.intro-container .left {
+    color: white;
+    margin-right: auto;
+}
+
+.intro-container .left #one {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.intro-container .left button {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 4px;
+    margin-top: 10px;
+    padding: 5px 20px 5px 20px;
+    border: none;
+}
+
+.intro-container .left>* {
+    margin: 0px;
+}
+
+.info-heading {
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 800;
+}
+
+.boxes {
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-bottom: 100px;
+}
+
+.boxes .boximages {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.boxes .boximages div {}
+
+.boxes .boxtext {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.boxes .boxtext div {
+    text-align: center;
+    width: 150px;
+}
+
+.customerquote {
+    background-color: #e5e7eb;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.thor {
+    font-style: italic;
+    font-size: 36px;
+    padding-left: 300px;
+    padding-right: 300px;
+    color: #1F2937;
+    font-weight: 300;
+}
+
+.thorsig {
+    text-align: end;
+    padding-left: 300px;
+    padding-right: 340px;
+    font-weight: 800;
+}
+
+.cta {
+    display: flex;
+    background-color: #3882F6;
+    color: white;
+    margin: 50px 200px 50px 200px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-radius: 8px;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.cta p {
+    padding-left: 100px;
+    margin: 0px
+}
+
+.cta .cta1 {
+    font-size: 18px;
+    padding-bottom: 5px;
+}
+
+.cta .cta2 {
+    font-size: 12px;
+}
+
+.cta .ctaright {}
+
+.cta button {
+    background-color: #3882F6;
+    border-color: white;
+    border-width: 1px;
+    color: white;
+    border-radius: 4px;
+    margin-top: 10px;
+    padding: 5px 20px 5px 20px;
+    margin-right: 100px;
+    margin-bottom: 10px;
+}
+
+/*
+Body
+    Header
+        Logo
+        Link 1
+        Link 2
+        Link 3
+    Intro Section
+        Left
+            Heading
+            Text
+            Button
+        Right
+            Image
+    Heading
+    Section
+        Image1
+        Image2
+        Image3
+        Image4
+    Quote
+    Bar
+*/
